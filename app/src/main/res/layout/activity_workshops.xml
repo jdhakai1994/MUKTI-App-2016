@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.android.mukti_2016.Workshops">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/description_card_background">
+
+        <TextView
+            android:id="@+id/feed_heading_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="FIREFOX WORKSHOP"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/workshops"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/feed_content_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="2nd February 2016\n10:00 AM"
+            android:textSize="18sp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp">
+
+            <ImageButton
+                android:id="@+id/call_button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="8dp"
+                android:src="@drawable/ic_call_black_18dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/call_button_1"
+                android:background="@null"
+                android:padding="8dp"
+                android:layout_marginLeft="15dp"
+
+                android:src="@drawable/ic_email_black_18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#8D6E63"
+                android:text="REGISTER"
+                android:padding="8dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/description_card_background">
+
+        <TextView
+            android:id="@+id/feed_heading_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="FIREFOX WORKSHOP"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/workshops"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/feed_content_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="2nd February 2016\n10:00 AM"
+            android:textSize="18sp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp">
+
+            <ImageButton
+                android:id="@+id/call_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="8dp"
+
+                android:src="@drawable/ic_call_black_18dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/call_button_2"
+                android:background="@null"
+                android:padding="8dp"
+                android:layout_marginLeft="15dp"
+
+                android:src="@drawable/ic_email_black_18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#8D6E63"
+                android:text="REGISTER"
+                android:padding="8dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
